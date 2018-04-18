@@ -1,0 +1,66 @@
+body{
+	margin: 1px;
+	border: 20px solid rgb(67, 235, 15);
+	padding: 0px;
+	background: url('../images/bgcol.jpg') no-repeat;
+	background-size:cover;
+	position:auto;
+}
+#phone,#fullname,#email,#city{
+	width: 400px;
+	border:5px solid steelblue;
+	height: 30px
+}
+
+#address{border: 5px solid steelblue;
+
+}
+
+li{
+	display: inline block;
+	padding: 5px;
+
+}
+
+.container{
+	border: 20px solid slateblue;
+	text-align: center;
+	width: 80%;
+	position: auto;
+	padding: 60px 45px 60px 45px;
+	margin: 65px 60px 65px 60px;
+	background-color:#19c4fc;
+
+}
+
+.title{
+	padding-right: 0px;
+	position: center;
+	font-size: 20px;
+
+}
+.quickAddForms{
+	display: block;
+	padding:20px;
+	margin:10px;
+	color:rgba(24, 26, 23, 0.63);
+}
+
+@media screen and (max-width:300px){
+	.container{
+		display: block;
+		position: fixed;
+		
+	
+	}
+
+	.quickAddForms{
+		position: fixed;
+		display: block;
+
+	}
+	
+	body{
+	position: fixed;
+	display: block;
+}
